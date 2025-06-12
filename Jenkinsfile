@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone repo') {
             steps {
-                sh 'git clone cattlepoint/cattlepoint-aer3-week2'
+                sh 'git clone https://github.com/cattlepoint/cattlepoint-aer3-week2.git'
             }
         }
         stage('Docker login') {
